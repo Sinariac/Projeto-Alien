@@ -29,7 +29,7 @@ function davidOpcao1() {
   var davidOpcao1 = prompt("O que David deve fazer? Escolha entre 1 e 2:");
 
   if (davidOpcao1 == 1) {
-    location = "../david/davidfase1.html";
+    location = "./david/davidfase1.html";
   } else if (davidOpcao1 == 2) {
     location = "../david/davidfase1nao.html";
   } else {
