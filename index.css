@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'alien';
+    src: url('fonte.ttf') format('truetype');
+}
+body {
+    text-align: center;
+    background-image: url(./fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 { 
+    font-family: 'alien';
+    font-size: 100px;
+    color: #06F406;
+    text-align: center;
+}
+h1:hover {
+    transform: scale(0.9);
+    cursor: pointer;
+}
+main.caixa {
+    text-align: center;
+    padding: 1.5px;
+    font-family: 'alien';
+    font-weight: bolder;
+    font-size: 35px;
+    border-radius: 60px;
+    background: #06F406;
+    height: 200%;
+    width:  100%;
+}
+.nomep {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.personagens:hover {
+    transform: scale(0.9);
+    cursor: pointer;
+    margin-top: 15px;
+
+}
+.btn {
+    border-radius: 28px;
+    text-shadow: 1px 1px 3px #06F406;
+    font-family: 'alien';
+    font-weight: bolder;
+    color: #000000;
+    font-size: 20px;
+    background: #000000;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+      color:#06F406 ;
+    background: #000000;
+    text-decoration: none;
+  }
